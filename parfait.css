@@ -1,0 +1,67 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #eef2f3, #dfe9f3);
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .profile {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 3px solid white;
+        }
+
+        section {
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+        }
+        a{
+        text-decoration: none;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .project {
+            background: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            color: white;
+        }
+
+        /* Animation */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
